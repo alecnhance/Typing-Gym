@@ -1,0 +1,127 @@
+
+
+.slider .track {
+    -fx-pref-height: 2px;
+    -fx-background-radius: 0px;
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+.slider .thumb {
+    -fx-pref-height: 15px;
+    -fx-pref-width: 4px;
+    -fx-focus-color: transparent;
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+
+#capslider .thumb{
+    -fx-pref-width: 5px;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-background-color: white;
+}
+
+#capslider .track {
+    -fx-background-color: white;
+}
+
+#leftArrow {
+    -fx-shape: "M150 5 L75 200 L225 200 Z";
+    -fx-background-color: white;
+    background-color: white;
+}
+
+#rightArrow {
+    -fx-shape: "M150 5 L75 200 L225 200 Z";
+    -fx-background-color: white;
+    background-color: white;
+}
+
+#invisible {
+    -fx-background-color: transparent;
+    background-color: transparent;
+}
+
+#invisibleLeft {
+    -fx-background-color: transparent;
+    background-color: transparent;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.radio-button {
+    -fx-text-fill: white;
+}
+
+.check-box {
+    -fx-text-fill: white;
+}
+
+.titled-pane .title
+{
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 30px;
+    -fx-text-fill: black;
+}
+
+.titled-pane .title .arrow-button .arrow {
+    -fx-background-color: #c92617;
+    -fx-focus-color: transparent;
+}
+
+#background {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-pref-width: 190px;
+    -fx-font-size: 13;
+    -fx-border-radius: 20px;
+}
+
+#arr {
+    -fx-pref-width: 75;
+}
+
+#nums {
+    -fx-pref-width: 75;
+}
+
+.check-box .box {
+    -fx-pref-width: 10px;
+    -fx-pref-height: 10px;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #c92617;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+    -fx-padding: 5px;
+}
+
+.radio-button {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15;
+    -fx-pref-width: 80px;
+}
+
+.radio-button .radio {
+    -fx-pref-width: 10px;
+    -fx-pref-height: 10px;
+    -fx-border-color: transparent;
+}
+
+.radio-button:selected .dot {
+    -fx-background-color: #c92617;
+}
+
+.radio-button .dot {
+    -fx-padding: 4px;
+}
+
