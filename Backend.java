@@ -40,22 +40,6 @@ public class Backend {
         return astr;
     }
 
-    /*public String getWord(String type) {
-        HttpRequest request = HttpRequest.newBuilder()
-				.uri(URI.create("https://api.api-ninjas.com/v1/randomword?type=" + type))
-				.header("X-Api-Key", "0o1x/479ISUu4d37SBwmrA==GdMyXgTqq34QlvW2")
-				.method("GET", HttpRequest.BodyPublishers.noBody())
-				.build();
-        HttpResponse<String> response = null;
-        try {
-			response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		return response.body().substring(11, response.body().length() - 2);
-    }*/
 
     public String getWord(String[] array) {
         return array[(int) (Math.random() * array.length)];
@@ -120,7 +104,6 @@ public class Backend {
                 String temp = "";
                 boolean space = false;
                 for (int i = 0; i < astr.length(); i++) {
-                    temp += i == 0 ? astr.substring(i, i + 1).toUpperCase() : "";
                     if (space) {
                         temp += astr.substring(i, i + 1).toUpperCase();
                     } else {
@@ -138,15 +121,6 @@ public class Backend {
                 for (int i = 2; i < astr.length(); i++) {
                     temp += String.valueOf(astr.charAt(i)).toLowerCase();
                 }
-                /*for (int i = 1; i < astr.length(); i++) {
-                    if (space && period) {
-                        temp += astr.substring(i, i + 1).toUpperCase();
-                    } else {
-                        temp += astr.substring(i, i + 1).toLowerCase();
-                    }
-                    space = astr.charAt(i) == ' ' ? true : false;
-                    period = astr.charAt(i) == '.' || astr.charAt(i) == ' ' ? true : false;
-                }*/
                 return temp;
             case CUSTOM:
                 temp = "";
