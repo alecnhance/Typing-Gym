@@ -1,6 +1,6 @@
 Typing Gym is a bodybuilding themed typing application designed to give the user control over their 
 typing practice with features such as customizable character frequencies, diverse
-capitilization options, and multiple color themes. 
+capitalization options, and multiple color themes. 
 
 To run this application, JavaFX 11 must be downloaded. Once it is, compile the Type file with the command 
 
