@@ -1,13 +1,11 @@
-Typing Gym is a bodybuilding themed typing application designed to give the user control over their 
-typing practice with features such as customizable character frequencies, diverse
-capitalization options, and multiple color themes. 
+# Typing Gym
 
-To run this application, JavaFX 11 must be downloaded. Once it is, compile the Type file with the command 
+Typing Gym is a bodybuilding-themed typing application designed to give users control over their typing practice with features such as customizable character frequencies, diverse capitalization options, and multiple color themes.
 
-         javac --module-path xxx --add-modules=javafx.controls Type.java
-  
-with the path of the JavaFX lib folder replacing the "xxx" in the command. The application can then be run with the command
+> **This is an older version of Typing Gym.**
+>
+> The project has since been significantly updated and moved to a newer, more modern implementation. For the current version, please visit the updated repository:
+>
+> **[Typing Gym — Current Version](https://github.com/alecnhance/TypingGymV2)**
 
-         java --module-path xxx --add-modules=javafx.controls Type
-  
-with the path of the lib folder replacing the "xxx" once more.
+This repository is preserved as an older version of the project and is no longer the primary development repository.
